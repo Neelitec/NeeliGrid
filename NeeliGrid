@@ -1,0 +1,16 @@
+/SEMS-Backend/
+ ├── app/
+ │    ├── api/
+ │    │    ├── device.py   # device endpoints
+ │    │    ├── user.py     # user authentication (optional)
+ │    │    └── control.py  # device control commands
+ │    ├── core/
+ │    │    ├── database.py # MongoDB connection
+ │    │    └── config.py   # environment variables
+ │    ├── models/
+ │    │    ├── device_model.py # Pydantic models for device data
+ │    │    └── user_model.py   # Pydantic models for users
+ │    └── main.py         # FastAPI startup
+ ├── requirements.txt     # Python packages
+ ├── Dockerfile           # (Optional if you want containerize)
+ └── README.md            # Project description
